@@ -1,0 +1,112 @@
+
+h1{
+    position:absolute;
+    top:50px;
+    left:50%;
+    transform:translateX(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 7vh;
+    color:black;
+    
+    }
+h2{
+    position:absolute;
+    top:80px;
+    left:50%;
+    transform:translateX(-30%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vh;
+    color:red;
+    
+    }
+    input{
+    border:solid;
+    border-radius: 40px;
+    position:absolute;
+    right:30px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: beige;
+    }
+    
+    label{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:black;
+    }
+    
+    
+    
+    .FormPOs{
+    position:relative;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,20%);
+    border:solid;
+    border-color:grey;
+    background-color: rgba(51, 48, 48, 0.5);
+    border-width:4px;
+    border-radius:6px;
+    width: 50vw;
+    height:60vh;
+    padding:20px;
+    
+    }
+    
+    button{
+    border:solid;
+    position:absolute;
+    left:30px;
+    right: 20px;
+    bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: beige;
+    }
+.container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);/*these values represent the x and y axis*/
+    background-color: rgba(61, 60, 60,0.5);
+    text-align: center;
+    width:100vw;
+    color:white;
+  }
+.links{
+    margin-top:5px;
+    padding-left:10px;
+    padding-right:10px;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    
+  }
+
+a:hover{
+    color:black;
+    text-decoration:underline;
+   background-color: gold;
+    transition:1s;
+}
+
+
+.links2{
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:80px;
+    margin-bottom:80px;
+    font-size: 25px;
+}
+
+.section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+        background: url('backg.jpg')no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
